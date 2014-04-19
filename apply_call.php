@@ -39,6 +39,7 @@ var aoi = {
 }
 
 something.greet.call(aoi, 'aoi');
+something.greet.apply(aoi, [aoi.name]);
 
 </script>
 </html>
