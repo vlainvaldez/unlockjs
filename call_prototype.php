@@ -1,6 +1,6 @@
 <html>
 <head>
-<title>Call Prototype</title>
+<title>Call Prototype / Prototypal Inheritance</title>
 
 <style>
     #results li.pass { color: green; } 
