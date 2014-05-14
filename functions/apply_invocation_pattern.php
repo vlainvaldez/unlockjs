@@ -1,14 +1,12 @@
 <html>
 <head>
-<title>Function Invocation Pattern</title>
+<title>Apply Invocation Pattern</title>
 
 <style>
 
 </style>
 </head>
 <body>
-        <!-- <ul id="results"></ul> -->
-
 
 </body>
 
