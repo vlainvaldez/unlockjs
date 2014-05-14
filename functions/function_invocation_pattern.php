@@ -42,12 +42,12 @@ var obj = {
         var innerFunction = function (){
             alert(this.value); // this.value became global because of innerFunction(); bellow the global this.value is var = 500 
         };
-        
+        // though this is inside a method, which is invoked later using method invocation pattern
         innerFunction();
     },
 };
 
-obj.increment();
+obj.increment(); 
 
 
 </script>
