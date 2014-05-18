@@ -13,9 +13,11 @@
 <script type="text/javascript">
 
 Function.prototype.protos = function (name, func){
-    this.prototype[name] = func;
-    return this;
-} 
+    if(!this.prototype[name]){
+        this.prototype[name] = func;
+        return this;
+    }
+}; 
 
 var Car = function (model){
     this.model = model
